@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>About me - Lan</title>
+    <title>Contact - Lan</title>
     <meta
       name="description"
       content="Lan is a front-end developer based in Japan, check out her projects and contact her for job inquiries"
@@ -61,13 +60,13 @@
               <a class="nav-link" aria-current="page" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">ABOUT</a>
+              <a class="nav-link" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="project.html">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+              <a class="nav-link active" href="contact.html">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -75,45 +74,58 @@
     </nav>
     <div class="container con-first">
       <div class="hero-text">
-        <h1 class="text-center">About me</h1>
-        <h3 class="text-center">Front-end developer from Hiroshima, Japan</h3>
-        <div class="about-paragraphs text-center">
-          <p>
-            広島大学大学院人間社会科学研究科人文社会科学専攻心理学プログラムの藍です。
-            <br />
-            4年生に九州大学に1年間の交換留学をきっかけ、心理学に興味を持つようになりました。
-            <br />
-            今回プログラミングを勉強しようと思っているのも、実験研究に使える能力を身に着けたいからです。
-            <br />
-            よろしくお願いいたします。
-          </p>
-        </div>
+        <h1 class="text-center">Contact Me</h1>
+        <h3 class="text-center">Contact for job inquiries</h3>
       </div>
     </div>
-    <footer>
-      <div class="container con-first">
-        <div class="hero-text d-flex justify-content-center">
-          <div class="card text-bg-secondary bg-transparent" style="width: 80%">
+    <div class="container mb-5" style="width: 80%">
+      <div class="row g-0">
+        <div class="col-md-6" id="message">
+          <div class="card text-bg-secondary bg-transparent">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="What would you like me to call you?"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label"
+                >Email</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="I'll get back to you via e-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Leave a message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="5"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" id="mail">
+          <div class="card text-bg-secondary bg-transparent">
             <div class="card-body">
-              <h3 class="card-title text-center">Contact Me</h3>
-              <div class="navigation-links mb-5">
-                <a
-                  href="contact.html#message"
-                  class="contact-link text-center"
-                  style="width: 120px"
-                  >MESSAGE</a
-                >
-                <a
-                  href="contact.html#mail"
-                  class="contact-link text-center"
-                  style="width: 120px"
-                  >EMAIL</a
-                >
-              </div>
+              <h2 class="card-text d-sm-block d-md-none text-center mb-4">
+                OR
+              </h2>
+              <h3 class="card-title text-center">Send me an email</h3>
+              <h5 class="card-text text-center">b02107006@gmail.com</h5>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   </body>
 </html>

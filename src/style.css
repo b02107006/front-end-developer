@@ -50,7 +50,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 72px;
 }
 
 h2 {
@@ -58,7 +58,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 15px;
   opacity: 0.7;
 }
 
@@ -78,16 +78,6 @@ a {
 
 .navigation-links a {
   margin: 20px;
-}
-
-.about-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  box-shadow: var(--box-shadow);
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
 }
 
 .primary-link {
@@ -133,6 +123,20 @@ a {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.contact-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 576px) {
